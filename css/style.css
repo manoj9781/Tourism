@@ -1,0 +1,361 @@
+
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+hr {
+  width: 35%;
+  border-top: solid 1px black;
+  display: inline-block;
+  position: relative;
+}
+
+h1 {
+  font-size: 30px;
+  line-height: 1.5;
+}
+
+a:hover,
+a:focus {
+  text-decoration: none;
+}
+
+#title {
+  background-color: thistle;
+  color: white;
+}
+.container-fluid {
+  padding: 3% 15%;
+}
+
+.navbar {
+  padding: 0 0;
+}
+
+.navbar-brand {
+  
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+ 
+}
+.icon {
+  padding: 5px;
+}
+
+#images {
+  padding: 5% 8%;
+  text-align: center;
+  background-color: #eeeeee;
+}
+
+.index-header {
+  text-align: center;
+  margin: 5%;
+  position: relative;
+}
+
+.tm-yellow-gradient-bg {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f5d11d+0,f3d10e+1,efcf1c+2,fccd0d+4,f7ca0d+5,f9cb1e+6,f7cb10+7,f8cc14+8,f0c40c+54,edc50c+55,e9c108+71,ecc008+78,e6be06+91,e9bd06+93,e8bc06+100 */
+  background: #f5d11d; /* Old browsers */ /* FF3.6+ */ /* Chrome,Safari4+ */ /* Chrome10+,Safari5.1+ */ /* Opera 11.10+ */ /* IE10+ */
+  background: linear-gradient(
+    to bottom,
+    #f5d11d 0%,
+    #f3d10e 1%,
+    #efcf1c 2%,
+    #fccd0d 4%,
+    #f7ca0d 5%,
+    #f9cb1e 6%,
+    #f7cb10 7%,
+    #f8cc14 8%,
+    #f0c40c 54%,
+    #edc50c 55%,
+    #e9c108 71%,
+    #ecc008 78%,
+    #e6be06 91%,
+    #e9bd06 93%,
+    #e8bc06 100%
+  ); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f5d11d', endColorstr='#e8bc06',GradientType=0 ); /* IE6-9 */
+}
+
+.tm-green-gradient-bg {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#2ec66b+0,2dc970+1,2ac96c+2,2bc76e+4,2bc869+5,2ac871+6,29c86c+7,28c76b+15,2bc76c+16,21bb61+73,1eb860+100 */
+  background: #2ec66b; /* Old browsers */ /* FF3.6+ */ /* Chrome,Safari4+ */ /* Chrome10+,Safari5.1+ */ /* Opera 11.10+ */ /* IE10+ */
+  background: linear-gradient(
+    to bottom,
+    #2ec66b 0%,
+    #2dc970 1%,
+    #2ac96c 2%,
+    #2bc76e 4%,
+    #2bc869 5%,
+    #2ac871 6%,
+    #29c86c 7%,
+    #28c76b 15%,
+    #2bc76c 16%,
+    #21bb61 73%,
+    #1eb860 100%
+  ); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2ec66b', endColorstr='#1eb860',GradientType=0 ); /* IE6-9 */
+}
+.tm-red-gradient-bg {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#e97262+0,ef6865+1,ed6c5f+2,f07162+4,f17062+5,eb6f67+6,ec6c5f+7,ec6b5e+18,eb5d4f+56,e95242+100 */
+  background: #e97262; /* Old browsers */ /* FF3.6+ */ /* Chrome,Safari4+ */ /* Chrome10+,Safari5.1+ */ /* Opera 11.10+ */ /* IE10+ */
+  background: linear-gradient(
+    to bottom,
+    #e97262 0%,
+    #ef6865 1%,
+    #ed6c5f 2%,
+    #f07162 4%,
+    #f17062 5%,
+    #eb6f67 6%,
+    #ec6c5f 7%,
+    #ec6b5e 18%,
+    #eb5d4f 56%,
+    #e95242 100%
+  ); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e97262', endColorstr='#e95242',GradientType=0 ); /* IE6-9 */
+}
+.tm-yellow-gradient-bg,
+.tm-green-gradient-bg,
+.tm-red-gradient-bg {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 88px;
+}
+.tm-city-price-container {
+  padding: 30px 0;
+  font-size: 16px;
+  color: white;
+  text-transform: uppercase;
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+}
+.tm-city-price-container:hover {
+  font-weight: 600;
+}
+.banner-button {
+  width: 130px;
+  height: 40px;
+  background-color: #f5d338;
+  border: medium none;
+  color: #5c4905;
+  font-size: 14px;
+  margin: 24px auto;
+  text-transform: uppercase;
+  box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.3);
+}
+
+#index {
+  padding: 3% 2%;
+  background-color: #eeeeee;
+}
+
+#popular {
+  padding: 3% 2%;
+}
+
+.container {
+  text-align: center;
+}
+
+#footer {
+  padding: 7% 15%;
+  background-color: wheat;
+  text-align: center;
+}
+.social-icon {
+  padding: 20px 10px;
+  border-radius: 100%;
+}
+.social-icon:hover {
+  color: white;
+}
+.banner-button {
+  margin: 20px;
+}
+
+.footer-icon {
+  text-align: center;
+}
+
+/* 
+font-family: 'IM Fell Double Pica', serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Ubuntu', sans-serif; */
+
+.chilly-img {
+  width: 25%;
+  float: right;
+  margin-right: 30px;
+}
+.code-img {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+#image-float {
+  padding: 5%;
+  text-align: left;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 50px auto 30px;
+  text-align: left;
+}
+
+.tm-section-title {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 36px;
+  font-weight: 300;
+  letter-spacing: 4px;
+}
+
+.who-container {
+  text-align: center;
+  margin: 5%;
+}
+
+#who-we-are {
+  background-color: #eeeeee;
+  padding: 5% 1%;
+}
+.border-radius {
+  border-radius: 100%;
+}
+
+.testimonial-container {
+  text-align: center;
+  padding: 7% 15%;
+  background-color: #fff;
+  line-height: 1.5;
+  
+  /* text-transform: uppercase; */
+}
+.test-image {
+  border-radius: 100%;
+  text-align: center;
+  float: left;
+  width: 40%;
+}
+
+.testimonial-text-header {
+  padding: 10px;
+  background-color: #555555;
+  color: #fff;
+  font-size: 18px;
+ 
+}
+
+.testimonial-text {
+  color: black;
+  background-color: #ffc93c;
+}
+.testimonial-text-decsprition {
+  margin: 10px;
+  text-align: left;
+  line-height: 1.5;
+ 
+}
+
+.testimonial-container-space {
+  padding-top: 5%;
+}
+
+/* Tours */
+
+.tours-box {
+  width: 100%;
+  max-width: 532px;
+  margin-bottom: 50px;
+  margin-left: 30px;
+}
+.tours-box-info {
+  background: white;
+  padding: 40px;
+  overflow: hidden;
+}
+.tours-box-info-left,
+.tours-box-info-right {
+  float: left;
+  width: 50%;
+}
+.tours-box-info-left {
+  border-right: 1px solid #b1b1b1;
+  padding-right: 30px;
+}
+.tours-box-info-right {
+  padding-left: 30px;
+}
+.margin-bottom {
+  margin-bottom: 20px;
+}
+.margin-bottom {
+  margin-bottom: 30px;
+}
+.gray-text {
+  color: #b1b1b1;
+}
+.tours-description {
+  line-height: 1.8;
+}
+.tours-box-link {
+  overflow: hidden;
+}
+.tours-box-link-left {
+  background-color: #1ca7c8;
+  padding: 20px 30px;
+  float: left;
+  width: 75%;
+  text-transform: uppercase;
+}
+.tours-box-link-right {
+  float: left;
+  background-color: #1687a6;
+  font-weight: 600;
+  font-size: 18px;
+  display: block;
+  padding: 17px 30px;
+  width: 25%;
+  transition: all 0.3s;
+  text-align: center;
+}
+.tours-box-link-right:hover,
+.tours-box-link-right:focus {
+  color: white;
+  background-color: #1d98b9;
+}
+.tours-box-link-left,
+.tours-box-link-right {
+  color: white;
+  height: 60px;
+}
+
+.special-package{
+  text-align: center;
+  background-color: #fff;
+  padding: 3%;
+}
+
+.light-text{
+  color: #fff;
+}
+
+
+
