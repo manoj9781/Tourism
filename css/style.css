@@ -358,4 +358,24 @@ font-family: 'Ubuntu', sans-serif; */
 }
 
 
+#search{
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #fff;
+}
+
+.search-class{
+  /* background-color: red; */
+  background-color: rgba(0, 0, 0,0.2);
+  padding: 7%;
+  /* background-image: url(img/about-1.jpg); */
+}
+
+
+.search-input{
+  margin-right: 30px;
+  height: 44px;
+  border-radius: 8px;
+}
+
 
