@@ -1,5 +1,3 @@
-
-
 body {
   font-family: 'Montserrat', sans-serif;
 }
@@ -34,9 +32,10 @@ a:focus {
 }
 
 .navbar-brand {
-  
   font-size: 1.5rem;
   font-weight: bold;
+  line-height: 1.5;
+  letter-spacing: 1px;
 }
 
 .nav-item {
@@ -45,10 +44,26 @@ a:focus {
 
 .nav-link {
   font-size: 1.2rem;
- 
+  font-weight: lighter;
+}
+.nav-link:hover {
+  background-color: rgba(0, 0, 0, 0.3);
 }
 .icon {
   padding: 5px;
+}
+.banner-title {
+  font-size: 4.5rem;
+  font-family: 'Ubuntu', sans-serif;
+}
+.banner-title-heading {
+  color: #f5b461;
+}
+.banner-text {
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #ebebeb;
+  word-spacing: 2px;
 }
 
 #images {
@@ -168,6 +183,28 @@ a:focus {
   padding: 3% 2%;
 }
 
+.card-title-index {
+  font-size: 18px;
+  text-transform: capitalize;
+  color: #214252;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.card-text-header {
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.card-text-index {
+  font-family: 'IM Fell Double Pica', serif;
+  font-size: 1em;
+  color: #686d76;
+  line-height: 1.5;
+}
+.text-align-left {
+  text-align: left;
+}
+
 .container {
   text-align: center;
 }
@@ -222,9 +259,10 @@ font-family: 'Ubuntu', sans-serif; */
 .tm-section-title {
   text-align: center;
   text-transform: uppercase;
-  font-size: 36px;
+  font-size: 40px;
   font-weight: 300;
   letter-spacing: 4px;
+  font-family: 'Montserrat-Bold', sans-serif;
 }
 
 .who-container {
@@ -238,6 +276,7 @@ font-family: 'Ubuntu', sans-serif; */
 }
 .border-radius {
   border-radius: 100%;
+  padding: 15% 15%;
 }
 
 .testimonial-container {
@@ -245,7 +284,7 @@ font-family: 'Ubuntu', sans-serif; */
   padding: 7% 15%;
   background-color: #fff;
   line-height: 1.5;
-  
+
   /* text-transform: uppercase; */
 }
 .test-image {
@@ -260,7 +299,6 @@ font-family: 'Ubuntu', sans-serif; */
   background-color: #555555;
   color: #fff;
   font-size: 18px;
- 
 }
 
 .testimonial-text {
@@ -271,7 +309,14 @@ font-family: 'Ubuntu', sans-serif; */
   margin: 10px;
   text-align: left;
   line-height: 1.5;
- 
+  font-family: 'IM Fell Double Pica', serif;
+  font-weight: lighter;
+}
+.blockquote-footer {
+  text-align: right;
+  padding: 1px 20px 10px;
+  font-family: 'IM Fell Double Pica', serif;
+  font-size: 16px;
 }
 
 .testimonial-container-space {
@@ -347,19 +392,28 @@ font-family: 'Ubuntu', sans-serif; */
   height: 60px;
 }
 
-.special-package{
+.special-package {
   text-align: center;
   background-color: #fff;
   padding: 3%;
 }
+.special-package-header {
+  padding: 3%;
+}
 
-.light-text{
+.light-text {
   color: #fff;
 }
 
-
-#form{
+#form {
   padding: 7% 15%;
 }
 
+.contact-background {
+  padding: 5%;
+  background-color: rgba(0, 0, 0, 0.3);
+}
 
+.footer-class {
+  display: inline-block;
+}
